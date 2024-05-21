@@ -1,11 +1,11 @@
 package app;
 
-import app.ui.Fmain;
+import Frame.GUI;
 
 public class main {
 
     public static void main(String[] args) {
-        Fmain fmain = new Fmain();
+        GUI fmain = new GUI();
         fmain.setVisible(true);
     }
 }

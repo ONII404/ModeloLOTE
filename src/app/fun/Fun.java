@@ -1,13 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package app.fun;
 
-/**
- *
- * @author beehr
- */
+import java.lang.Math;
+
 public class Fun {
     
+
+    Double getQ(double S, double D, double H) {
+
+        double Q = (2 * S * D) / H;
+        return RaizCuadrada(Q);
+    }
+
+    Double getT(double Q, double D) {
+        return Q/D;
+    }
+
+    Double RaizCuadrada(double a) {
+        return Math.sqrt(a);
+    }
+
 }
