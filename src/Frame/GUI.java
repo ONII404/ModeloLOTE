@@ -271,7 +271,7 @@ public class GUI extends javax.swing.JFrame {
 
     private void Var1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Var1ActionPerformed
         // TODO add your handling code here:
-        Var1.scanner
+        
     }//GEN-LAST:event_Var1ActionPerformed
 
     /**
