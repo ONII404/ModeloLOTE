@@ -1,4 +1,4 @@
-package app.fun;
+package app.components;
 
 import java.lang.Math;
 
